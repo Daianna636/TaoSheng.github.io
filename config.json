@@ -1,6 +1,9 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "owner": "Daianna636",
+    "repo": "TaoSheng.github.io",
+    "issue-label": "documentation",
+    "link": "https://daianna636.github.io/TaoSheng.github.io/",
+    "subpath": "TaoSheng.github.io",
+    "GMEEK_VERSION":"last",
+    "email": "TaoHuang636@outlook.com"
 }
