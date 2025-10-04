@@ -3,10 +3,13 @@ name: build Gmeek
 on:
   workflow_dispatch:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled, unlabeled, reopened, closed]
   schedule:
     - cron: "0 16 * * *"
-    
+
+# 可放在文件顶层，显式给 token 写权限（更稳）
+permissions:
+  contents: write
 jobs:
   build:
     name: Generate blog
